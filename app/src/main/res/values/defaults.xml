@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_hour">9</integer>
+    <integer name="def_minutes">0</integer>
+    <integer name="def_expiry_cutoff">7</integer>
+</resources>

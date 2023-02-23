@@ -1,0 +1,61 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/barcodes_header">
+
+        <SwitchPreference
+            app:key="auto_scan"
+            app:summaryOff="@string/auto_scan_summary_off"
+            app:summaryOn="@string/auto_scan_summary_on"
+            app:title="@string/auto_scan" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="fast_add"
+            app:summaryOff="@string/fast_add_summary_off"
+            app:summaryOn="@string/fast_add_summary_on"
+            android:title="Fast scan" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/notifications_header">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            app:key="expiry_notification"
+            app:summaryOff="@string/expiry_notification_summary"
+            app:summaryOn="@string/expiry_notification_summary"
+            app:title="@string/expiry_notification" />
+        <Preference
+            android:dependency="expiry_notification"
+            android:key="expiry_notification_time"
+            android:title="@string/expiry_notification_time"
+            app:summary="@string/expiry_notification_time_summary" />
+        <Preference
+            android:dependency="expiry_notification"
+            android:key="expiry_notification_before"
+            android:title="@string/expiry_notification_before"
+            app:summary="@string/expiry_notification_before_summary" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="buy_products_reminder"
+            app:summary="@string/buy_products_reminder_summary"
+            android:title="@string/buy_products_reminder" />
+        <MultiSelectListPreference
+            android:defaultValue="@array/weekdays_values"
+            android:dependency="buy_products_reminder"
+            android:entries="@array/weekdays"
+            android:entryValues="@array/weekdays_values"
+            android:key="buy_products_reminder_weekdays"
+            android:title="@string/buy_products_reminder_weekdays"
+            app:summary="@string/buy_products_reminder_weekdays_summary" />
+        <Preference
+            android:dependency="buy_products_reminder"
+            android:key="buy_products_reminder_time"
+            android:title="@string/buy_products_reminder_time"
+            app:summary="@string/buy_products_reminder_time_summary">
+
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

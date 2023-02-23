@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <it.unibo.cs.lam2021.ui.scanner.DrawSurface
+        android:id="@+id/draw_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="72dp"
+        android:clickable="true"
+        android:contentDescription="@string/barcode_scan"
+        app:tint="@color/white"
+        app:srcCompat="@drawable/ic_barcode_scan" />
+
+    <ImageButton
+        android:id="@+id/flash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="@dimen/scanner_buttons_small_margin"
+        android:layout_marginBottom="@dimen/scanner_buttons_large_margin"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/flash"
+        android:padding="16dp"
+        app:srcCompat="@drawable/ic_flash_off"
+        app:tint="@color/scanner_buttons" />
+
+    <ImageButton
+        android:id="@+id/flip_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="@dimen/scanner_buttons_small_margin"
+        android:layout_marginBottom="@dimen/scanner_buttons_large_margin"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/flip_camera"
+        android:padding="16dp"
+        app:srcCompat="@drawable/ic_camera_rear"
+        app:tint="@color/scanner_buttons" />
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="indigo_100">#FFc5cae9</color>
+    <color name="indigo_300_light">#FFaab6fe</color>
+    <color name="indigo_400">#FF5B6ABF</color>
+
+    <color name="light_red">#FFE45252</color>
+    <color name="dark_indigo">#FF505EA9</color>
+    <color name="indigo_gray">#FF353A50</color>
+
+    <color name="highlight_stroke">#B8FFFFFF</color>
+    <color name="highlight_fill">#64FFFFFF</color>
+    <color name="focus_stroke">#B8FFFFFF</color>
+    <color name="focus_fill">#64FFFFFF</color>
+
+    <color name="splash_background">#ff7e57c2</color>
+
+    <color name="ic_launcher_background">#6A1B9A</color>
+
+    <color name="red_700">#FFd32f2f</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+
+    <string-array name="weekdays">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="weekdays_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <integer-array name="category_colors">
+        <item>0xFFef5350</item>
+        <item>0xFFec407a</item>
+        <item>0xFFab47bc</item>
+        <item>0xFF7e57c2</item>
+        <item>0xFF5c6bc0</item>
+        <item>0xFF26a69a</item>
+        <item>0xFF66bb6a</item>
+        <item>0xFFff7043</item>
+    </integer-array>
+</resources>

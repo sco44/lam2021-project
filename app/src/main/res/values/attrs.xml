@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorCategorySelected" format="color" />
+    <attr name="colorPantryItem" format="color" />
+    <attr name="colorPantryItemSelected" format="color" />
+    <attr name="colorNetworkOfflineBackground" format="color" />
+    <attr name="colorPantrySearchHighlight" format="color" />
+</resources>

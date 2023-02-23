@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">32dp</dimen>
+    <dimen name="fab_small_margin">36dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!-- BARCODE SIZES -->
+    <dimen name="barcode_small_width">72dp</dimen>
+    <dimen name="barcode_small_height">36dp</dimen>
+    <dimen name="barcode_large_width">192dp</dimen>
+    <dimen name="barcode_large_height">96dp</dimen>
+
+    <!-- color picker -->
+    <dimen name="color_circle_diameter">48dp</dimen>
+    <dimen name="color_circle_corners">24dp</dimen>
+
+    <dimen name="fab_transition1">64dp</dimen>
+    <dimen name="fab_transition2">120dp</dimen>
+
+    <dimen name="barcode_highlight_padding_vertical">18dp</dimen>
+    <dimen name="barcode_highlight_padding_horizontal">18dp</dimen>
+    <dimen name="barcode_highlight_corner_radius">3dp</dimen>
+    <dimen name="barcode_highlight_stroke_width">3dp</dimen>
+    <dimen name="focus_highlight_radius">24dp</dimen>
+    <dimen name="focus_highlight_stroke_width">1dp</dimen>
+
+    <dimen name="scanner_buttons_small_margin">36dp</dimen>
+    <dimen name="scanner_buttons_large_margin">72dp</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_pantry">
+
+    <fragment
+        android:id="@+id/nav_pantry"
+        android:name="it.unibo.cs.lam2021.ui.pantry.PantryFragment"
+        android:label="@string/menu_pantry"
+        tools:layout="@layout/fragment_pantry" />
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="it.unibo.cs.lam2021.ui.categories.CategoriesFragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/fragment_categories" />
+
+</navigation>
